@@ -61,6 +61,8 @@ public class TestServlet extends HttpServlet {
 				out.print(hobby[1] + "<br>");
 			
 		}
+		
+		out.close();
 	}
 
 	/**
